@@ -646,11 +646,12 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
+			border-radius: 4px;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5; /* Adjust this value as needed, or set it to 1 for fully opaque */
+			opacity: 1;
 			position: absolute;
 			top: 0;
 			width: 100%;
